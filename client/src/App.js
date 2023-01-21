@@ -1,15 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import {useEffect} from "react";
-
-const webgazer = require('webgazer');
+import webgazer from 'webgazer';
 
 function App() {
     useEffect(() => {
         const eyeTracker = webgazer;
         eyeTracker.setGazeListener((data, clock) => {
             console.log(data, clock);
-        })
+        }).begin();
     });
 
     return (
