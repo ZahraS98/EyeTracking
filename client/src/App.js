@@ -1,24 +1,22 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
+import {useEffect} from "react";
+
+const webgazer = require('webgazer');
 
 function App() {
-  const [data, setData] = React.useState(null);
+    useEffect(() => {
+        const eyeTracker = webgazer;
+        eyeTracker.setGazeListener((data, clock) => {
+            console.log(data, clock);
+        })
+    });
 
-  React.useEffect(() => {
-    fetch("/api")
-        .then((res) => res.json())
-        .then((data) => setData(data.message));
-  }, []);
-
-  return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{!data ? "Loading..." : data}</p>
-        </header>
-      </div>
-  );
+    return (
+        <div className="App">
+            Webgazer Test
+        </div>
+    );
 }
 
 export default App;
