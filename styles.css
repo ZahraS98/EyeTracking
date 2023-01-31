@@ -1,3 +1,7 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
 .pointOfInterest{
     width: 100px;
     height: 100px;
@@ -10,17 +14,43 @@
     position: absolute;
     left: 670px;
     top: 162px;
-
+    z-index:1;
 }
+
+#catStickerHolder {
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    left: 670px;
+    top: 162px;
+}
+
 .pointOfInterest{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index:1;
 }
+
 .pointOfInterest > span{
     font-size: 11px;
     font-family: Arial;
     color: grey;
     text-align: center;
+    z-index:1;
+}
 
+#canvas {
+    width:95%;
+    height:95%;
+    border: black;
+    border-radius:0.25rem;
+    background-color: #fff;
+
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
