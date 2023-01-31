@@ -1,0 +1,26 @@
+.pointOfInterest{
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+#cat{
+    display: none;
+    position: absolute;
+    left: 670px;
+    top: 162px;
+
+}
+.pointOfInterest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pointOfInterest > span{
+    font-size: 11px;
+    font-family: Arial;
+    color: grey;
+    text-align: center;
+
+}
