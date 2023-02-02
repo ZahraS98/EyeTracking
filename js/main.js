@@ -48,8 +48,8 @@ function Restart(){
 
 function EndCalibration() {
     document.getElementById("calibration").style.display = "none";
-    document.getElementById("webgazerGazeDot").style.display = "none";
     document.getElementById("main").style.visibility = "visible";
     webgazer.pause();
     activateMainListener();
+    document.getElementById("webgazerGazeDot").style.display = "none";
 }
