@@ -21,6 +21,7 @@ body {
     position: absolute;
     z-index: 1;
     position: absolute;
+    /*für responsivität am besten auf 50% setzen beide werte*/
     left: 670px;
     top: 162px;
 }
@@ -45,14 +46,14 @@ body {
     height:95%;
     border-radius:0.25rem;
    /* background-color: #fff;*/
-
     position: absolute;
     z-index: -1;
     left: 0;
     right: 0;
     margin: auto;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-   /* background-image: url('background-animals.png');*/
+    top: 5%;
+    bottom: 5%;
 }
 
 .corner {
@@ -63,11 +64,14 @@ body {
     font-family: 'Roboto', sans-serif;
   /*  border: 1px solid black;*/
   }
-  
+
+#webgazerGazeDot {
+  color: white !important;
+}
   
   .top-right {
-    top: 5%;
-    right: 5%;
+    top: 2.5%;
+    right: 2.5%;
     /*padding-right: 5%;
     padding-top: 5%;*/
     text-align: center;
@@ -76,24 +80,45 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20%;
+    height: 20%;
   }
   
   .bottom-left {
-    bottom: 5%;
-    left: 5%;
+    bottom: 2.5%;
+    left: 2.5%;
     text-align: center;
     vertical-align: auto;
     background-color: lightgrey;
     display: flex;
     align-items: center;  justify-content: center;
+    width: 20%;
+    height: 20%;
   }
   
   .bottom-right {
-    bottom: 5%;
-    right: 5%;
+    bottom: 2.5%;
+    right: 2.5%;
     text-align: center;
     background-color: lightgrey;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 20%;
+    height: 20%;
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif;
+top: 3% !important;
+position: sticky;
+text-align:center; 
+color:#007aff;
+  }
+
+  h2 {
+    margin-top:2% !important;
+    font-family: 'Roboto', sans-serif;
+text-align:center;
+margin-top: 2%;
   }
