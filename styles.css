@@ -12,18 +12,106 @@ body {
 #cat{
     display: none;
     position: absolute;
-    left: 670px;
+    left: 400px;
     top: 162px;
     z-index:1;
 }
 
-#catStickerHolder {
+#dog{
+  display: none;
+  position: absolute;
+  left: 1000px;
+  top: 162px;
+  z-index:1;
+}
+
+#bird{
+  display: none;
+  position: absolute;
+  left: 1500px;
+  top: 162px;
+  z-index:1;
+}
+
+#stickerHolder1 {
     position: absolute;
     z-index: 1;
     position: absolute;
     /*für responsivität am besten auf 50% setzen beide werte*/
-    left: 670px;
+    left: 400px;
     top: 162px;
+}
+
+#stickerHolder2 {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  /*für responsivität am besten auf 50% setzen beide werte*/
+  left: 730px;
+  top: 162px;
+}
+
+#stickerHolder3 {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  /*für responsivität am besten auf 50% setzen beide werte*/
+  right: 400px;
+  top: 162px;
+}
+
+#stickerHolder4 {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  /*für responsivität am besten auf 50% setzen beide werte*/
+  left: 400px;
+  bottom: 330px;
+}
+
+#stickerHolder5 {
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+left: 730px;
+bottom: 330px;
+}
+
+#stickerHolder6 {
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+right: 400px;
+bottom: 330px;
+}
+
+#stickerHolder7 {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  /*für responsivität am besten auf 50% setzen beide werte*/
+  left: 400px;
+  bottom: 162px;
+}
+
+#stickerHolder8 {
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+left: 730px;
+bottom: 162px;
+}
+
+#stickerHolder9 {
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+right: 400px;
+bottom: 162px;
 }
 
 .pointOfInterest{

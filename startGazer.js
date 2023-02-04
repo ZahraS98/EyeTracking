@@ -15,14 +15,14 @@ function activateMainListener() {
         catSticker.height = "100";
         catSticker.id = "cat";
         document.body.appendChild(catSticker);
-        var target = document.getElementById("catStickerHolder");
+        var target = document.getElementById("stickerHolder1");
 
         if (target.contains(document.elementFromPoint(xprediction, yprediction))) {
             console.log("User is looking at target");
             if (!timer) {
                 timer = setTimeout(function () {
                     console.log("User has been looking at target for 2 seconds");
-                    document.getElementById("catStickerHolder").style.display = "none";
+                    document.getElementById("stickerHolder1").style.display = "none";
                     if (!stickerOneActivated) {
                         document.getElementById("cat").style.display = "block";
                         stickerOneActivated = true;
@@ -77,4 +77,3 @@ function activateMainListener() {
         }
     }).begin();
 }
-
