@@ -9,6 +9,78 @@ body {
     margin: auto;
 }
 
+#sticker0{
+    display: none;
+    position: absolute;
+    left: 26%;
+    top: 20%;
+    z-index:1;
+}
+
+#sticker1{
+    display: none;
+    position: absolute;
+    left: 47%;
+    top: 20%;
+    z-index:1;
+}
+
+#sticker2{
+    display: none;
+    position: absolute;
+    right: 26%;
+    top: 20%;
+    z-index:1;
+}
+
+#sticker3{
+    display: none;
+    position: absolute;
+    left: 26%;
+    bottom: 43%;
+    z-index:1;
+}
+
+#sticker4{
+    display: none;
+    position: absolute;
+    left: 47%;
+    bottom: 43%;
+    z-index:1;
+}
+
+#sticker5{
+    display: none;
+    position: absolute;
+    right: 26%;
+    bottom: 43%;
+    z-index:1;
+}
+
+#sticker6{
+    display: none;
+    position: absolute;
+    left: 26%;
+    bottom: 20%;
+    z-index:1;
+}
+
+#sticker7{
+    display: none;
+    position: absolute;
+    left: 47%;
+    bottom: 20%;
+    z-index:1;
+}
+
+#sticker8{
+    display: none;
+    position: absolute;
+    right: 26%;
+    bottom: 20%;
+    z-index:1;
+}
+
 #cat{
     display: none;
     position: absolute;
@@ -33,13 +105,22 @@ body {
   z-index:1;
 }
 
-#stickerHolder1 {
+#stickerHolder0 {
     position: absolute;
     z-index: 1;
     position: absolute;
     /*für responsivität am besten auf 50% setzen beide werte*/
-    left: 400px;
-    top: 162px;
+    left: 26%;
+    top: 20%;
+}
+
+#stickerHolder1 {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  /*für responsivität am besten auf 50% setzen beide werte*/
+  left: 47%;
+  top: 20%;
 }
 
 #stickerHolder2 {
@@ -47,8 +128,8 @@ body {
   z-index: 1;
   position: absolute;
   /*für responsivität am besten auf 50% setzen beide werte*/
-  left: 730px;
-  top: 162px;
+  right: 26%;
+  top: 20%;
 }
 
 #stickerHolder3 {
@@ -56,17 +137,17 @@ body {
   z-index: 1;
   position: absolute;
   /*für responsivität am besten auf 50% setzen beide werte*/
-  right: 400px;
-  top: 162px;
+  left: 26%;
+  bottom: 43%;
 }
 
 #stickerHolder4 {
-  position: absolute;
-  z-index: 1;
-  position: absolute;
-  /*für responsivität am besten auf 50% setzen beide werte*/
-  left: 400px;
-  bottom: 330px;
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+left: 47%;
+bottom: 43%;
 }
 
 #stickerHolder5 {
@@ -74,26 +155,26 @@ position: absolute;
 z-index: 1;
 position: absolute;
 /*für responsivität am besten auf 50% setzen beide werte*/
-left: 730px;
-bottom: 330px;
+right: 26%;
+bottom: 43%;
 }
 
 #stickerHolder6 {
-position: absolute;
-z-index: 1;
-position: absolute;
-/*für responsivität am besten auf 50% setzen beide werte*/
-right: 400px;
-bottom: 330px;
-}
-
-#stickerHolder7 {
   position: absolute;
   z-index: 1;
   position: absolute;
   /*für responsivität am besten auf 50% setzen beide werte*/
-  left: 400px;
-  bottom: 162px;
+  left: 26%;
+  bottom: 20%;
+}
+
+#stickerHolder7 {
+position: absolute;
+z-index: 1;
+position: absolute;
+/*für responsivität am besten auf 50% setzen beide werte*/
+left: 47%;
+bottom: 20%;
 }
 
 #stickerHolder8 {
@@ -101,17 +182,8 @@ position: absolute;
 z-index: 1;
 position: absolute;
 /*für responsivität am besten auf 50% setzen beide werte*/
-left: 730px;
-bottom: 162px;
-}
-
-#stickerHolder9 {
-position: absolute;
-z-index: 1;
-position: absolute;
-/*für responsivität am besten auf 50% setzen beide werte*/
-right: 400px;
-bottom: 162px;
+right: 26%;
+bottom: 20%;
 }
 
 .pointOfInterest{
