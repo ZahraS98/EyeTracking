@@ -11,7 +11,9 @@ function activateMainListener() {
         var xprediction = data.x;
         var yprediction = data.y;
         // console.log(elapsedTime);
-        
+
+        document.getElementById("webgazerGazeDot").style.display = "none";
+
         for (let i = 0; i < stickers.length; i++) {
             var sticker = document.createElement("img");
             sticker.src = stickers[i];
