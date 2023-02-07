@@ -48,6 +48,8 @@ function Restart(){
 
 function EndCalibration() {
     document.getElementById("calibration").style.display = "none";
+    $('#helpModal').modal('hide');
+    $(".Calibration").hide();
     document.getElementById("main").style.visibility = "visible";
     webgazer.pause();
     activateMainListener();
