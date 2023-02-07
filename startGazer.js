@@ -81,7 +81,7 @@ function activateMainListener() {
                     //var stickerActivated = false;
                     clearTimeout(timer);
                     timer = null;
-                }, 5000);
+                }, 2000);
             }
         }
     }
